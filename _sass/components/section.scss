@@ -1,0 +1,137 @@
+hr {
+  width: 50px;
+  height: 3px;
+  border-radius: 3px;
+  background: $brand-teal;
+  display: block;
+  margin: 60px auto;
+  border: 0;
+}
+
+section {
+  padding-top: 80px;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    border-radius: 3px;
+    background: $brand-teal;
+    display: block;
+    margin: 80px auto 0 auto;
+  }
+
+  &#why:after,
+  &#install:after,
+  &#get-started:after,
+  &#latest:after {
+    display: none;
+  }
+}
+
+.our-aim h4 {
+  color: $brand-blue;
+
+  strong {
+    color: $accent-gold;
+  }
+}
+
+#why p:last-child {
+  margin-bottom: 5em;
+}
+
+.how-description h5 {
+  line-height: 1.5;
+}
+
+@media screen and (max-width: $breakpoint-mid-mobile) {
+  .how-item {
+    margin-bottom: 50px;
+    .illustration {
+      height: 140px;
+      margin-bottom: 20px;
+    }
+  }
+  .how-description {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: ($breakpoint-mid-mobile + 1)) {
+  .how-item {
+    max-width: 700px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+
+    .illustration {
+      width: 35%;
+      height: 145px;
+      padding-right: 30px;
+    }
+  }
+
+  .how-description {
+    width: 65%;
+  }
+}
+
+// install options
+
+.install-description h4 {
+  color: $color-teal;
+  margin-bottom: 0.25em;
+}
+
+.install-description h4:hover {
+  text-decoration: underline;
+}
+
+.install-description a {
+  color: $color-teal;
+}
+
+.install-description a:hover {
+  color: $color-white;
+}
+
+.install-item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.install-item img {
+  max-height: 100px;
+}
+
+
+@media screen and (min-width: ($breakpoint-mid-mobile)) {
+  .install-item {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .install-item-image {
+    width: 350px;
+    img {
+      max-height: 150px;
+    }
+  }
+  .install-description {
+    margin-left: 0.35rem;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  h2 {
+    padding-top: 80px;
+  }
+  section:first-of-type {
+    padding-top: 20px;
+  }
+}

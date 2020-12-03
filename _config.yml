@@ -1,1 +1,26 @@
-theme: jekyll-theme-minimal
+theme: minima
+
+title: IPML
+description: Inter-Planetry Mall
+author: ipml.io
+name: 
+
+logo: /assets/img/logo.png
+show_downloads: true
+google_analytics:
+
+plugins:
+  - jekyll-babel
+
+
+collections:
+  problems:
+   output: false
+
+  howitworks:
+   output: false
+
+  solutions:
+   output: false
+
+# https://nictravis.com/jekyll_with_require

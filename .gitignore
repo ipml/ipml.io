@@ -1,0 +1,5 @@
+assets/js/main-bundle.js
+assets/js/main-bundle.js.LICENSE.txt
+node_modules/
+.jekyll-cache/
+_site
