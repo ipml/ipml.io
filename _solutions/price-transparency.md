@@ -3,8 +3,7 @@ title: Price Transparency
 image: 016-bill.svg
 ---
 
-To solve price opaqueness problem, an open database for sellers is required, in
-the articles and prices are listed transparently and for everyone to see. A
-system in which the customer can simply search and find his article directly
-can order from the producer. No dealer required. For this kind of open
-database, we propose blockchain technologies.
+To solve price opaqueness problem, an open database for sellers is required
+that transparently lists items and prices for everyone. A system in which the
+customer can simply search and find an item and order directly from the seller.
+No middleman required.

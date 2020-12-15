@@ -3,9 +3,10 @@ title: Open and Distributed Database
 image: 012-open.svg
 ---
 
-An open and distributed database that is not profit-oriented entity and is
-openly accessible enables every businessman to open his own realm without
-asking for permission and / or getting prices dictated. Such a database could
-revolutionize retail markets and on top of that, create unimagined synergies
-between dealers create. Such a database can be build with Blockchain
-technologies.
+An open and distributed database that is not controlled by a profit-oriented
+entity. Its openness enables every business to independently set their own
+prices.
+Such a database could revolutionize retail markets by creating unimagined
+synergies between potential buyers and sellers as well as open opportunities
+for 3rd parties to provide services ontop of it. Such a database can be built
+with blockchain technologies.
